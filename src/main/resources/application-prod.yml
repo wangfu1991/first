@@ -1,0 +1,8 @@
+server:
+  port: 8088
+
+girl:
+  name: wangf
+  age: 22
+
+
