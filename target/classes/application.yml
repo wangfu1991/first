@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: dev
+  http:
+    encoding:
+      charset: utf-8
+  datasource:
+    url: jdbc:mysql://101.132.41.109:3306/springboot?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    username: root
+    password: china2017
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+girl:
+  name: lisa
+  age: 33
+
+logging:
+  file: root.log
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
